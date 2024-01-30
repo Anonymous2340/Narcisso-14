@@ -1,0 +1,144 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-image: url("Spaceship.gif");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*This is the navigation bar menu...*/
+.navigation-bar {
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+}
+
+
+/*This is the navigation bar's title design...*/
+.navigation-bar .title {
+	display: flex;
+	width: auto;
+	height: 80px;
+	flex-direction: row;
+	margin-right: 20px;
+}
+
+.navigation-bar .title img {
+	width: 50px;
+	height: 50px;
+	margin: 15px 10px;
+}
+
+.navigation-bar .title h1 {
+	color: magenta;
+	font-size: 25px;
+	padding: 20px 0px;
+}
+
+.navigation-bar .title p {
+	color: magenta;
+	position: absolute;
+	top: 56%;
+	left: 5.7%;
+}
+
+/*This is the navigation bar's options design...*/
+.navigation-bar-menu {
+	float: left;
+	list-style-type: none;
+}
+
+.navigation-bar-menu .navigation-bar-items {
+	float: left;
+	width: 130px;
+	position: relative;
+}
+
+.navigation-bar-menu .navigation-bar-items ion-icon {
+	font-size: 15px;
+	padding-left: 2px;
+}
+
+.navigation-bar-menu .navigation-bar-items a {
+	display: block;
+	padding: 27px 20px;
+	font-size: 21px;
+	text-decoration: none;
+	color: darkmagenta;
+}
+
+.navigation-bar-menu .navigation-bar-items .dropdown {
+	list-style-type: none;
+	display: none;
+	position: absolute;
+	background-color: black;
+	width: 190px;
+	padding: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.navigation-bar-menu .navigation-bar-items:hover .dropdown {
+	display: block;
+}
+
+.navigation-bar-menu .navigation-bar-items a:hover {
+	color: magenta;
+}
+
+.navigation-bar-menu .navigation-bar-items .dropdown .dropdown-item {
+	width: 190px;
+	height: auto;
+}
+
+.navigation-bar-menu .navigation-bar-items .dropdown .dropdown-item a {
+	display: block;
+	padding: 15px 20px;
+}
+
+.navigation-bar-menu .navigation-bar-items .dropdown .dropdown-item a:hover {
+	color: magenta;
+	background-color: darkgrey;
+}
+
+/*Thi is the design of the emoji container...*/
+.emoji-container {
+	width: 100%;
+	height: 100vh;
+	padding: 100px 20px;
+}
+
+
+/*This is the design of the intro of homepage...*/
+.what-is {
+	display: flex;
+	height: 400px;
+	width: 550px;
+	padding: 50px 355px;
+}
+
+/*This is the designs of the emoji container...*/
+.emoji-container .list-of-emojis {
+	list-style-type: none;
+}
+
+.emoji-container .list-of-emojis .emoji {
+	float: left;
+	font-size: 70px;
+	background-color: rgb(229, 154, 229, 0.5);
+	padding: 20px;
+	text-align: center;
+	margin: 30px;
+	border-radius: 13px;
+}
+
+.emoji-container .list-of-emojis .emoji:hover {
+	background-color: rgba(253, 207, 253, 0.7);
+	box-shadow: 3px 3px 10px rgb(227, 13, 227);
+}
