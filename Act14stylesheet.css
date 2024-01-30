@@ -118,9 +118,21 @@ body {
 /*This is the design of the intro of homepage...*/
 .what-is {
 	display: flex;
+	flex-direction: column;
 	height: 400px;
 	width: 550px;
 	padding: 50px 355px;
+}
+
+.what-is h1 {
+	font-size: 50px;
+	color: pink;
+}
+
+.what-is p {
+	color: pink;
+	font-size: 25px;
+	padding-top: 20px;
 }
 
 /*This is the designs of the emoji container...*/
